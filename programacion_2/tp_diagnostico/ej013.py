@@ -3,7 +3,11 @@
 a:int = int(input("Ingrese un número: "))
 b:int = a
 
-while b > 0:
-    if(a % b == 0):
-        print(b)
-    b -= 1
+
+def lista_divisores(num1, num2):
+    while num2 > 0:
+        if(num1 % num2 == 0):
+            print(num2)
+        num2 -= 1
+
+lista_divisores(a, b)
