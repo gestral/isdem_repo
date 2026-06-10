@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad CSS</title>
+    <style>
+        body {
+            background-color: #D3DCE7;
+        }
+        h1{
+            color: #235386;
+            font-family: system-ui;
+            text-align: center;
+        }
+        .contenedor{
+            margin: 5%;
+            padding: 20px 15px 20px 15px;
+            background-color: #FEFEFE;
+            border-radius: 10px;
+        }
+        #parrafo{
+            display: flex;
+            align-items: center;
+            gap: 10px;    
+        }
+        .caja{
+            flex: 1;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+        }
+        h2{
+            margin-top: 50px;
+            font-family: system-ui;
+        }
+        p, div, li, a{
+            margin-bottom: 20px;
+            font-family:Verdana;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Beneficios de hacer ejercicio diariamente</h1>
+        <h3 id="indice">Indice</h3>
+        <ul>
+            <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#fisicos">Beneficios físicos</a></li>
+            <li><a href="#mentales">Beneficios mentales</a></li>
+            <li><a href="#tipos">Tipos de ejercicios</a></li>
+        </ul>
+        
+        <h2 id="introduccion">Introducción</h2>
+        <div id="parrafo">
+            <p class="caja">El ejercicio físico es una parte fundamental para mantener una vida saludable. En la actualidad, 
+                muchas personas llevan un estilo de vida sedentario debido al uso de la tecnología y las largas 
+                horas frente a pantallas, lo que puede afectar negativamente la salud. <br>Incorporar actividad física 
+                de manera diaria no solo ayuda a mejorar la condición física, sino que también contribuye al bienestar 
+                mental y emocional. En esta página se explorarán los principales beneficios del ejercicio y 
+                su importancia en la vida cotidiana.</p>
+            <div class="caja">
+                <img src="https://entrenadorpersonal360.es/wp-content/uploads/2025/11/hacer-deporte-a-diario.jpg" alt="2 personas corriendo">
+            </div>
+        </div>
+
+        <h2 id="fisicos">Beneficios físicos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti! Fugiat, eligendi. Voluptatibus nostrum sapiente veniam? Ab, esse deleniti, illum placeat repellat quidem dolores minima, est sunt explicabo adipisci aliquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis dicta fugiat omnis optio minus repellat maxime eligendi vel quas exercitationem consectetur vero commodi, modi ducimus. Ex quae alias dolorum dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Placeat modi asperiores adipisci sapiente aperiam animi odit? Odit, architecto repellat? Debitis incidunt voluptatum error dicta cupiditate assumenda illo placeat tempore magnam!</p>
+        
+        <h2 id="mentales">Beneficios mentales</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti! Fugiat, eligendi. Voluptatibus nostrum sapiente veniam? Ab, esse deleniti, illum placeat repellat quidem dolores minima, est sunt explicabo adipisci aliquam!</p>
+        
+        <h2 id="tipos">Tipos de ejercicios</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti! Fugiat, eligendi. Voluptatibus nostrum sapiente veniam? Ab, esse deleniti, illum placeat repellat quidem dolores minima, est sunt explicabo adipisci aliquam!</p>
+        <div><a href="#indice">Volver al indice</a></div>
+    </div>
+</body>
+</html>

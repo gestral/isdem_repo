@@ -10,10 +10,10 @@ precio_unitario = 5000
 descuento = 10
 
 subtotal = cant_unidades * precio_unitario
-descuento_aplicado = subtotal * descuento / 100
+mondo_descuento = subtotal * descuento / 100
 
 if cant_unidades >= 5:
-    print(f"Subtotal: {subtotal - descuento_aplicado}") 
+    print(f"Precio final: {subtotal - mondo_descuento}") 
 else:
-    print(f"Subtotal: {subtotal}")
+    print(f"Precio final: {subtotal}")
 
