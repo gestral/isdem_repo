@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Integrador</title>
+    <link rel="stylesheet" href="/styles/editar.css">
+    <link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3990fb7ca4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+		<div class="container">
+			<nav class="atras">
+				<a href="#"><i class="fa-solid fa-arrow-left"></i> Regresar</a>
+			</nav>
+		</div>
+	</header>
+    <form class="form-register" action="funciones.php" method="POST">
+                <h4>Editar usuario</h4>
+                <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <input class="controls" type="text" name="usuario" id="usuario" placeholder="Usuario">
+                <input class="controls" type="email" name="rol_de_usuario" id="rol_de_usuario" placeholder="Rol de usuario">
+                <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
+                <input class="botons" type="submit" value="Editar">
+                <p><a href="#">Cancelar</a></p>
+    </form>
+</body>
+</html>
